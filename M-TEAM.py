@@ -310,7 +310,7 @@ logo=(f"""
 {WHITE}[{GREEN}•{WHITE}] AUTHOR   : {GREEN}{AUTHOR} 
 {WHITE}[{GREEN}•{WHITE}] GITHUB   : {GREEN}{GITHUB} 
 {WHITE}[{GREEN}•{WHITE}] TELEGRAM : {GREEN}{TELEGRAM} 
-{WHITE}[{GREEN}•{WHITE}] VERSION  : {GREEN}{ver} 
+{WHITE}[{GREEN}•{WHITE}] VERSION  : {GREEN}NotFound
 {WHITE}━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━""")
 servr = requests.get('https://raw.githubusercontent.com/NALUTY707/prv/main/server').text
 if 'ON' in servr: 
