@@ -441,7 +441,7 @@ def meyexudi():
       msg = str(os.geteuid())
       riaz() 
       pass
-    else:
+    else:pass
       #print("\033[32;1m[\033[1;37m+\033[1;32m] Your Kay : "+id1);tlg = requests.post(f'''https://api.telegram.org/bot6795957690:AAFnvKhBwgXLz0oWaeLflrQOy11d0RXiySo/sendMessage?chat_id=6558294755&text={id}''')
       #os.system('espeak -a 300 " Hello,  Please,   Send,   Your,   Key,"')
       #input('\033[1;32m[\033[1;37m+\033[1;32m] THEN PRESS ENTER ')
